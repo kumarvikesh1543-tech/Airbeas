@@ -7,7 +7,6 @@ plugins {
     kotlin("android")
     alias(libs.plugins.kotlin.serialization)
     kotlin("kapt")
-    id("com.google.gms.google-services")
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.compose.compiler)
