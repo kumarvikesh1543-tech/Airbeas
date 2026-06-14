@@ -36,9 +36,8 @@ include(":shazamkit")
 //      implementation(libs.newpipe.extractor)
 // To:
 //      implementation("com.github.teamnewpipe:NewPipeExtractor")
-//includeBuild("../NewPipeExtractor") {
-//    dependencySubstitution {
-//        substitute(module("com.github.teamnewpipe:NewPipeExtractor")).using(project(":extractor"))
-//    }
+// dependencySubstitution {
+//     substitute(module("com.github.teamnewpipe:NewPipeExtractor")).using(project(":extractor"))
+// }
 //}
 include(":shazamkit")
